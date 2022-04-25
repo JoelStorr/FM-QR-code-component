@@ -10,6 +10,7 @@
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
+    --accent-blue: #2c7DFA;
     --dark-blue: hsl(218, 44%, 22%);
 
     /* SEC C: Fonts */
@@ -31,5 +32,63 @@
 body{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray);
+    font-family: var(--font);
+}
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between; 
+    width: 320px;
+    height: 497px;
+    background-color: var(--white);
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518)
+}
+.qr-code-container{
+    width: 288px;
+    height: 288px;
+    background-image: url('/images/image-qr-code.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   /*  background-color: var(--accent-blue); */
+    border-radius: 10px;
+
+}
+
+
+
+
+.text-conatiner{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: var(--dark-blue)
+}
+p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+    color: var(--grayish-blue);
+    padding: 0 10px;
+    color: var();
 }
