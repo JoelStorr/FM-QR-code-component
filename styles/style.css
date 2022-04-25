@@ -59,7 +59,7 @@ body {
 .qr-code-container {
     width: 288px;
     height: 288px;
-    background-image: url('./images/image-qr-code.png');
+    background-image: url('images/image-qr-code.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
